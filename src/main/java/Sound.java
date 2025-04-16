@@ -19,11 +19,11 @@ public class Sound
     for(int i =0; i < samples.length; i ++){
       if(samples[i] > limit){
         samples[i] = limit;
-        count++
+        count++;
       }
       else if (sample[i] < -limit){
         samples[i] = -limit; 
-        count++
+        count++;
       }
     }
     return count;
