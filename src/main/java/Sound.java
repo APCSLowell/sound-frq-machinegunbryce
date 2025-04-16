@@ -47,6 +47,6 @@ public class Sound
     newSamples[i] = samples[i+n];
 
     }
-    samples = new samples;
+    samples = newSamples;
   }
 }
